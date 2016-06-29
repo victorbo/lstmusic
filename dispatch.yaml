@@ -1,0 +1,11 @@
+application: wixprospero-gptest
+
+# No version required, this does routing independent of version
+
+dispatch:
+
+  - url: "*/list"
+    module: lstmusic
+
+  - url: "*/*"
+    module: lstmusic
