@@ -126,7 +126,8 @@ class BillingProperties(ndb.Model):
 
 
 class FileList(webapp2.RequestHandler):
-    FILES_PER_PAGE = 3
+    FILES_PER_PAGE = 10
+	
 
     # def get(self):
     #     start_cursor = self.request.get('cursor', None)
